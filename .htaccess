@@ -1,0 +1,25 @@
+RewriteEngine On
+RewriteRule ^home?$ index.php
+
+RewriteRule ^tea&coffee?$ teacoffee.php
+RewriteRule ^functional_ingredients?$ functional.php
+RewriteRule ^essential_oil?$ oil.php
+RewriteRule ^cocoa&vanilla?$ cocoavanilla.php
+RewriteRule ^honey&coconut?$ honeycoconut.php
+RewriteRule ^fruit&vegetable?$ fruitvegetable.php
+RewriteRule ^seasoning_ingredients?$ seasoning.php
+RewriteRule ^cosmetic&care?$ cosmetic.php
+
+RewriteRule ^about_us?$ about.php
+RewriteRule ^our_people?$ people.php
+
+RewriteRule ^process&capability?$ process_capability.php
+RewriteRule ^solutions&applications?$ solutions_applications.php
+
+RewriteRule ^safety&quality?$ safety.php
+RewriteRule ^sustainability?$ sustainability.php
+RewriteRule ^reduce_carbon_footprint?$ footprint.php
+
+RewriteRule ^haldin's_blog?$ blog.php
+
+RewriteRule ^haldin's_product?$ product.php

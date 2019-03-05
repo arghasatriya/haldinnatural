@@ -1,0 +1,217 @@
+
+
+/* River Video Area css
+============================================================================================ */
+.river_video_area {
+  background: url(../img/video/river-video.jpg) no-repeat scroll center center;
+  background-position: 15% 75%;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+  padding: 190px 0px;
+  
+}
+
+.river_video_area .river_video_inner {
+  text-align: center;
+  margin-right:5px;
+}
+
+.river_video_area .river_video_inner a {
+  color: #fff;
+  display: inline-block;
+  line-height: 70px;
+  font-size: 30px;
+  height: 88px;
+  width: 88px;
+  border-radius: 50%;
+}
+
+.river_video_inner img{
+	text-align: center;
+	margin:2px auto;
+	max-width:70px;
+}
+
+
+/* End River Video Area css
+============================================================================================ */
+
+/* ------------------------------------------------------------------- 
+ * ## home video link
+ * ------------------------------------------------------------------- */
+ .home-content__video a{
+	  color: #fff;
+  display: inline-block;
+  line-height: 70px;
+  border: 5px solid #316096;
+  font-size: 30px;
+  height: 77px;
+  width: 77px;
+  border-radius: 50%;
+  background: #ff9600;
+ }
+ 
+.home-content__video {
+  position: absolute;
+}
+
+.home-content__video .video-link {
+  display: block;
+  text-align: center;
+  width: 13rem;
+  outline: none;
+  position: relative;
+}
+
+.home-content__video .video-icon {
+  display: inline-block;
+  height: 7rem;
+  width: 7rem;
+  border-radius: 50%;
+  background-color: black;
+  background-image: url(../img/icon/play-btn.png);
+  background-repeat: no-repeat;
+  background-position: 50% center;
+  background-size: 54px 57px;
+  -webkit-transition: background-color 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.home-content__video .video-text {
+  display: inline-block;
+  text-align: center;
+  font-family: "Helvetica Normal";
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+  letter-spacing: .4rem;
+  -webkit-transition: color 0.3s ease-in-out;
+  transition: color 0.3s ease-in-out;
+}
+
+.home-content__video .video-link:hover .video-text {
+  color: white;
+}
+
+.home-content__video .video-link:hover .video-icon {
+  background-color: #880000;
+}
+
+
+@media only screen and (max-width:1600px) {
+
+  .home-content__video {
+	   top:30rem;
+    right: 62rem;
+  }
+
+}
+
+@media only screen and (max-width:1200px) {
+  .home-content__button,
+  .home-content__video {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .home-content__video {
+    position: static;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    height: 6.6rem;
+    line-height: 6.6rem;
+  }
+
+  .home-content__video .video-link {
+    padding-left: 9rem;
+    width: auto;
+  }
+
+  .home-content__video .video-icon {
+    height: 6.6rem;
+    width: 6.6rem;
+    background-size: 42px 43px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+}
+
+@media only screen and (max-width:800px) {
+  .home-content__video {
+    margin-left: 26rem;
+	margin-top: -20rem;
+
+  }
+
+  .home-content__video .video-text {
+    display: none;
+  }
+
+
+}
+
+
+@media only screen and (max-width:600px) {
+
+  .home-content__video {
+	margin-top: -13rem;
+    margin-left: 14rem;
+  }
+
+  .home-content__video .video-text {
+    display: inline-block;
+    font-size: 11px;
+  }
+}
+
+.single-product {
+  text-align: center;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 10px 30px 0px rgba(212, 150, 255, 0.2);
+}
+
+.single-product .thumb {
+  padding: 40px;
+  border-bottom: 1px solid #eee;
+}
+
+.single-product .details {
+  padding: 20px;
+  background-color: #f9f9ff;
+}
+
+.single-product .details h4 {
+  margin-bottom: 20px;
+}
+
+.single-product .details .primary-btn {
+  margin-top: 10px;
+  border-radius: 0;
+  background: #fff;
+  color: #222 !important;
+  font-weight: 600;
+}
+
+.single-product:hover {
+  cursor: pointer;
+}
+
+.single-product:hover .details .primary-btn {
+  color: #fff !important;
+}
+
+@media (max-width: 960px) {
+  .single-product {
+    margin-bottom: 30px;
+  }
+}
+
+.product-page .single-product {
+  margin-bottom: 30px;
+}
+

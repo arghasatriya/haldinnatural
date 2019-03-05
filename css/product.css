@@ -1,0 +1,191 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300i,400,600i,700');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.img_product_tea {
+    max-width: 100%;
+    height: auto;
+    margin-top:10%;
+}
+
+.img_product_coffee {
+    max-width: 100%;
+    height: auto;
+    margin-top:10%;
+}
+
+.img_product_functional {
+    max-width: 100%;
+    height: auto;
+    margin-top:10%;
+}
+
+body {
+
+    line-height: 1.6em;
+}
+
+.section-padding {
+    padding:50px 0;
+}
+
+.padding-top {
+    padding-top: 100px;
+}
+
+.padding-bottom {
+    padding-bottom: 100px;
+}
+
+.padding-100-70 {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.padding-100-50 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.padding-100-40 {
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+
+.padding-100-30 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.width-100,
+.width-100 img {
+    width: 100%;
+}
+
+.mbzero {
+    margin-bottom: 0 !important;
+}
+
+.mb50 {
+    margin-bottom: 50px !important;
+}
+
+.mb30 {
+    margin-bottom: 30px !important;
+}
+
+.mt50 {
+    margin-top: 50px !important;
+}
+
+.mt30 {
+    margin-top: 30px !important;
+}
+
+
+
+.left,
+.right,
+.center {
+    position: relative;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/*--------------------------------
+    4. SERVICE TOP AREA
+---------------------------------*/
+
+.single-service {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.service-icon {
+    border: 1px solid #58AEDC;
+    color: #292929;
+    font-size: 30px;
+    height: 60px;
+    margin: 0 auto 25px;
+    padding-top: 14px;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 60px;
+}
+
+.single-service:hover .service-icon {
+    background: #B2D235 none repeat scroll 0 0;
+    border-color: #B2D235;
+    color: #ffffff;
+}
+
+.read-more {
+    background: #58AEDC none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 10px 29px;
+    text-transform: uppercase;
+}
+
+.read-more:hover {
+    background: #58AEDC none repeat scroll 0 0;
+    color: #fff;
+}
+
+/*--------------------------------
+    5. ABOUT AREA
+----------------------------------*/
+
+.high-light {
+    color: #292929;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+
+/*--------------------------------
+    6. SERVICE BOTTOM ARAE
+---------------------------------*/
+
+.single-service.right {
+    padding-right: 80px;
+}
+
+.single-service.right .service-icon {
+    position: absolute;
+    right: 0;
+}
+
+.single-service.left {
+    padding-left: 80px;
+}
+
+.single-service.left .service-icon {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+.center_product {
+   margin-left: 10%;
+}

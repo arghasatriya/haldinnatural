@@ -1,0 +1,251 @@
+.hero-area {
+  position: relative;
+  z-index: 1; }
+
+.hero-slides {
+  position: relative;
+  z-index: 1; }
+  
+  .hero-slides .owl-item.active .single-hero-slide .slide-img {
+  -webkit-animation: slide 15s linear infinite;
+  animation: slide 15s linear infinite; }
+  
+  .single-hero-slide {
+  width: 100%;
+  height: 950px;
+  position: relative;
+  z-index: 1;
+  padding: 0 30px;
+  overflow: hidden; }
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .single-hero-slide {
+      height: 700px; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .single-hero-slide {
+      height: 650px; } }
+  @media only screen and (max-width: 767px) {
+    .single-hero-slide {
+      height: 600px; } }
+  .single-hero-slide::after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    content: ''; }
+  .single-hero-slide .slide-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0; }
+  .single-hero-slide .big-text {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.1);
+    font-size: 600px;
+    z-index: -10;
+    margin-bottom: 0; }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .single-hero-slide .big-text {
+        font-size: 350px; } }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .single-hero-slide .big-text {
+        font-size: 300px; } }
+    @media only screen and (max-width: 767px) {
+      .single-hero-slide .big-text {
+        font-size: 120px; } }
+  .single-hero-slide .hero-slides-content {
+    display: inline-block; }
+    .single-hero-slide .hero-slides-content h2 {
+      position: relative;
+      z-index: 1;
+      font-size: 172px;
+      color: #ffffff;
+      margin-bottom: 0;
+      font-weight: 600;
+      text-shadow: 18px 0 0 rgba(255, 45, 109, 0.2);
+      display: inline-block; }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .single-hero-slide .hero-slides-content h2 {
+          font-size: 130px; } }
+      @media only screen and (max-width: 767px) {
+        .single-hero-slide .hero-slides-content h2 {
+          font-size: 60px; } }
+      .single-hero-slide .hero-slides-content h2 span {
+        position: absolute;
+        top: 0;
+        left: -18px;
+        font-size: 172px;
+        color: rgba(132, 57, 255, 0.2);
+        margin-bottom: 0;
+        font-weight: 600;
+        text-shadow: none;
+        z-index: -5; }
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+          .single-hero-slide .hero-slides-content h2 span {
+            font-size: 130px; } }
+        @media only screen and (max-width: 767px) {
+          .single-hero-slide .hero-slides-content h2 span {
+            font-size: 60px; } }
+    .single-hero-slide .hero-slides-content p {
+      text-align: right;
+      font-size: 60px;
+      margin-top: -70px;
+      color: #ffffff;
+      font-family: "Allura", cursive; }
+      @media only screen and (max-width: 767px) {
+        .single-hero-slide .hero-slides-content p {
+          font-size: 30px;
+          margin-top: -20px; } }
+
+
+/*-----------------------------------
+    3. WELCOME SLIDER AREA
+-------------------------------------*/
+
+.welcome-slider-area {
+    color: #fff;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.welcome-single-slide {
+    height: 750px;
+    width: 100%;
+}
+
+.slide-bg-overlay {
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.slide-bg-overlay::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.slide-bg-one {
+    background: rgba(0, 0, 0, 0) url("img/slider/slide-1.jpg") no-repeat scroll center center / cover;
+}
+
+.slide-bg-two {
+    background: rgba(0, 0, 0, 0) url("img/slider/slide_1.jpg") no-repeat scroll center center / cover;
+}
+
+.slide-bg-three {
+    background: rgba(0, 0, 0, 0) url("img/slider/slide_2.jpg") no-repeat scroll center center / cover;
+}
+
+.welcome-area {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 18px;
+    height: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.welcome-text h4 {
+    font-size: 20px;
+}
+
+.welcome-text h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.home-button {
+    padding-top: 50px;
+}
+
+.home-button a {
+    background: #26b7e7 none repeat scroll 0 0;
+    border-radius: 5px;
+    padding: 15px 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.home-button a:hover {
+    background: #ffffff none repeat scroll 0 0;
+    color: #26b7e7;
+}
+
+.owl-item.active .welcome-single-slide .welcome-text h4 {
+    -webkit-animation: 1s ease 1s normal both 1 running fadeInUp;
+    animation: 1s ease 1s normal both 1 running fadeInUp;
+}
+
+.owl-item.active .welcome-single-slide .welcome-text h1 {
+    -webkit-animation: 1s ease 1.5s normal both 1 running fadeInUp;
+    animation: 1s ease 1.5s normal both 1 running fadeInUp;
+}
+
+.owl-item.active .welcome-single-slide .welcome-text p {
+    -webkit-animation: 1s ease 2s normal both 1 running fadeInUp;
+    animation: 1s ease 2s normal both 1 running fadeInUp;
+    ;
+}
+
+.owl-item.active .welcome-single-slide .home-button {
+    -webkit-animation: 1s ease 2.5s normal both 1 running fadeInUp;
+    animation: 1s ease 2.5s normal both 1 running fadeInUp;
+}
+
+.welcome-slider-area .owl-nav {
+    bottom: -100px;
+    position: absolute;
+    right: 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.welcome-slider-area:hover .owl-nav {
+    bottom: 20px;
+}
+
+.welcome-slider-area .owl-nav > div {
+    background: #26b7e7 none repeat scroll 0 0;
+    bottom: 0;
+    display: inline-block;
+    font-size: 35px;
+    height: 50px;
+    margin-left: 10px;
+    padding-top: 5px;
+    right: 0;
+    text-align: center;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 50px;
+}
+
+.welcome-slider-area .owl-nav > div:hover {
+    background: #fff none repeat scroll 0 0;
+    color: #26b7e7;
+}
